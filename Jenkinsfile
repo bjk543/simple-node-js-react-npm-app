@@ -1,5 +1,5 @@
-node('s1') {
 pipeline {
+node('s1') {
     agent {
         docker {
             image 'node:6-alpine'
