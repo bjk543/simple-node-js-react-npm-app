@@ -1,5 +1,4 @@
 pipeline {
-node('s1') {
     agent {
         docker {
             image 'node:6-alpine'
@@ -10,6 +9,7 @@ node('s1') {
         CI = 'true'
     }
     stages {
+node('s1') {
         stage('Build') {
             steps {
                 sh 'npm -v'
