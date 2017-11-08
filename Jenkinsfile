@@ -1,3 +1,4 @@
+node('s1') {
 pipeline {
     agent {
         docker {
@@ -11,6 +12,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
+                sh 'npm -v'
                 sh 'npm install'
             }
         }
@@ -27,4 +29,5 @@ pipeline {
             }
         }
     }
+}
 }
