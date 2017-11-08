@@ -1,16 +1,25 @@
 {
-  "name": "my-app",
-  "version": "0.1.0",
-  "private": true,
+  "name": "simple-node-js-react-npm-app",
+  "version": "1.0.0",
+  "description": "This repository is for the [Using Jenkins to build a Node.js and React application with npm](https://jenkins.io/doc/tutorials/building-a-node-js-and-react-app-with-npm/) tutorial in the [Jenkins User Documentation](https://jenkins.io/doc/).",
+  "main": "index.js",
   "dependencies": {
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
-    "react-scripts": "1.0.14"
+    "react-scripts": "^1.0.17"
   },
+  "devDependencies": {},
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-  }
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bjk543/simple-node-js-react-npm-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bjk543/simple-node-js-react-npm-app/issues"
+  },
+  "homepage": "https://github.com/bjk543/simple-node-js-react-npm-app#readme"
 }
